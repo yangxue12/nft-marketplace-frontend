@@ -4,7 +4,7 @@ function Navbar({onConnectWallet,walletAddress}){
             <div className="navbar-brand">NFT Marketplace</div>
 
             <div className="navbar-menu">
-                <button className="connect-wallet-button" onClick={onConnectWallet}>{walletAddress || "Wallet"}
+                <button className="connect-wallet-button" onClick={onConnectWallet}>{walletAddress || "ConnectWallet"}
                 </button>
             </div>
         </nav>

@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     addWalletListener();
-  }, []);
+  },[]);
 
   function addWalletListener() {
     if (window.ethereum) {
